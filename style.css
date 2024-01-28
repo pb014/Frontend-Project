@@ -136,6 +136,7 @@ body{
     animation: slideFromLeft 1s ease forwards;
     opacity: 0;
 }
+
 @keyframes slideFromLeft {
 
     0% {
@@ -174,3 +175,15 @@ body{
     justify-content: center;
 }
 
+.start-button,
+.tour-button{
+    
+    border: none;
+    border-radius: 0.375rem;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    transform: all  0.1s;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
