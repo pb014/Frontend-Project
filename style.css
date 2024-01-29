@@ -187,3 +187,11 @@ body{
     font-size: 1rem;
     font-weight: 600;
 }
+
+.tour-button{
+    background-color: var(--dark-gray);
+}
+
+.start-button:hover{
+    background-color: #5254f8;
+}
