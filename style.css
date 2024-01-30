@@ -195,3 +195,28 @@ body{
 .start-button:hover{
     background-color: #5254f8;
 }
+
+.tour-button:hover{
+    background-color: var(--gray);
+}
+
+
+.content-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-container{
+    border: none;
+    border-radius: 1.225rem;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    height: 50vh;
+}
+
+.section-image{
+    height: 100%;
+    width: 100%;
+}
