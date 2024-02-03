@@ -273,3 +273,20 @@ body{
     margin-bottom: 2rem;
     padding: 1.8rem 2.5rem;
 }
+
+.company-logo{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--gray);
+    display: flex;
+    gap: 0.5rem;
+}
+
+.svg-img{
+    height: 1.56rem;
+}
+
+.logo-txt{
+    font-size: 1rem;
+}
+
