@@ -328,3 +328,22 @@ body{
     font-size: 1rem;
 }
 
+.feature-grid{
+    display: grid;
+   
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    margin-top: 1.3rem;
+}
+
+.feature-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6d7890;
+    padding: 1.6rem;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
